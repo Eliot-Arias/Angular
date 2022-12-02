@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-xD',
+  selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['../../node_modules/bootstrap/dist/css/bootstrap.min.css']
 })
 export class AppComponent {
-  title = 'mi-Primer-app';
+  title = 'Angular002';
 }

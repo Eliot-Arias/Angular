@@ -5,15 +5,17 @@ import { AppComponent } from './app.component';
 import { EliotComponent } from "./ERA/eliot.component";
 import { EspeComponent } from "./ERA/espe.component";
 import { CursosComponent } from "./ERA/curso.component";
+import { LenguajesModule } from './lenguajes/lenguajes.module';
 
 @NgModule({
   declarations: [
     AppComponent, EliotComponent, EspeComponent, CursosComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    LenguajesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule {  }
+export class AppModule { }
